@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">WeatherPro</string>
+    <string name="search_city">Search City</string>
+    <string name="detailed_forecast">Detailed Forecast</string>
+    <string name="current_weather">Current Weather</string>
+    <string name="five_day_forecast">5-Day Forecast</string>
+    <string name="view_details">View Detailed Forecast</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="pressure">Pressure</string>
+    <string name="feels_like">Feels like</string>
+    <string name="search">Search</string>
+    <string name="enter_city_name">Enter city name</string>
+    <string name="location_permission_denied">Location permission denied</string>
+    <string name="unable_to_get_location">Unable to get location</string>
+    <string name="network_error">Network error</string>
+    <string name="city_not_found">City not found</string>
+
+    <!-- New strings for splash screen -->
+    <string name="app_tagline">Your Perfect Weather Companion</string>
+    <string name="version_info">Version 1.0</string>
+    <string name="loading">Loading...</string>
+</resources>
