@@ -18,6 +18,10 @@ public class WeatherData {
     @SerializedName("sys")
     private Sys sys;
 
+    @SerializedName("visibility")
+    private int visibility;
+
+    // Getters and Setters
     public String getCityName() { return cityName; }
     public void setCityName(String cityName) { this.cityName = cityName; }
 
@@ -32,6 +36,9 @@ public class WeatherData {
 
     public Sys getSys() { return sys; }
     public void setSys(Sys sys) { this.sys = sys; }
+
+    public int getVisibility() { return visibility; }
+    public void setVisibility(int visibility) { this.visibility = visibility; }
 
     public static class Main {
         @SerializedName("temp")
